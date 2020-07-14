@@ -1,0 +1,43 @@
+.homepage {
+  width: 70%;
+  margin-left: 3%;
+  color: rgb(48, 14, 48);
+
+  img {
+    width: 120px;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: 40px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .button-container {
+    margin-top: 40px;
+
+    a {
+      text-decoration: none;
+      border: none;
+      background: #ffe6e6;
+      color: rgb(48, 14, 48);
+      margin-right: 20px;
+      font-size: 2rem;
+      padding: 10px 30px 10px 30px;
+      border-radius: 5px;
+
+      &:hover {
+        background: rgb(48, 14, 48);
+        color: #ffe6e6;
+      }
+    }
+  }
+}
