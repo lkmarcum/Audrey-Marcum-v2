@@ -11,7 +11,7 @@ const Homepage = (props) => {
       <p>
         My first manic episode led to a medical withdrawal after my first day of
         college classes. The last of my 6 hospitalizations was in 2009. Since
-        then I graduated law school, made friends,passed the bar, got married,
+        then I graduated law school, made friends, passed the bar, got married,
         and am now in a fulfilling banking career. Living with bipolar disorder
         can be done. Thriving in spite of bipolar disorder can be done.{" "}
       </p>
@@ -25,8 +25,9 @@ const Homepage = (props) => {
         Feel free to download and share with anyone who you think may be able to
         benefit. 18-year-old me would have loved to hear a success story.
       </p>
-      <p>Best wishes,</p>
+      <p className="signoff">Best wishes,</p>
       <p>Audrey Marcum</p>
+      <p>December 24, 2019</p>
       <div className="button-container">
         <a href={book} target="_blank" className="browser">
           Read in browser
