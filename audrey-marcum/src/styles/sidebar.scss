@@ -6,6 +6,10 @@
   overflow: hidden;
   border-right: 5px solid rgb(238, 196, 196);
 
+  @media (max-width: 500px) {
+    display: none;
+  }
+
   img {
     width: 86%;
     margin-left: 7%;
