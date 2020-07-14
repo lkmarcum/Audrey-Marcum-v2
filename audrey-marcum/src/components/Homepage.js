@@ -28,7 +28,7 @@ const Homepage = (props) => {
       <p>Best wishes,</p>
       <p>Audrey Marcum</p>
       <div className="button-container">
-        <a href={book} target="_blank">
+        <a href={book} target="_blank" className="browser">
           Read in browser
         </a>
         <a href={book} download>

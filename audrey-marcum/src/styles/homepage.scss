@@ -41,6 +41,12 @@
       margin-top: 20px;
     }
 
+    .browser {
+      @media (max-width: 500px) {
+        display: none;
+      }
+    }
+
     a {
       text-decoration: none;
       border: none;
