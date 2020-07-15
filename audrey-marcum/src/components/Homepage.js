@@ -7,6 +7,7 @@ const Homepage = (props) => {
   return (
     <div className="homepage">
       <img src={logo} />
+      <div className="dash" />
       <h1>Hi, my name is Audrey and I have Bipolar Disorder.</h1>
       <p>
         My first manic episode led to a medical withdrawal after my first day of
