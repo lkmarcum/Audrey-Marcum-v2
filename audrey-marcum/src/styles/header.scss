@@ -3,7 +3,7 @@ header {
 
   @media (max-width: 500px) {
     display: block;
-    height: 70px;
+    height: 85px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -11,20 +11,21 @@ header {
     color: rgb(48, 14, 48);
     background: #c968ca;
     margin-bottom: 10px;
+    // padding: 20px 0 20px 0;
   }
 
   h1 {
     @media (max-width: 500px) {
       font-size: 2.5rem;
-      margin-left: 10px;
+      margin-left: 20px;
     }
   }
 
   img {
     @media (max-width: 500px) {
       width: 60px;
-      margin-right: 10px;
-      margin-left: 10px;
+      margin-right: 20px;
+      // margin-left: 20px;
     }
   }
 }
