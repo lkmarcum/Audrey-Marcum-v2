@@ -97,4 +97,34 @@
       }
     }
   }
+
+  .sign-off {
+    display: flex;
+    // width: auto;
+    justify-content: flex-start;
+    @media (max-width: 500px) {
+      justify-content: space-between;
+    }
+
+    .sign-off-text {
+      white-space: nowrap;
+    }
+  }
+
+  .linkedin {
+    border: none;
+    border-radius: 0;
+    height: 25px;
+    width: auto;
+    box-shadow: none;
+    margin-left: -12px;
+    margin-top: -3px;
+    cursor: pointer;
+
+    @media (max-width: 500px) {
+      display: block;
+      height: 50px;
+      margin-top: -27px;
+    }
+  }
 }

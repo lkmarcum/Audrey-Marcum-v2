@@ -3,7 +3,7 @@ header {
 
   @media (max-width: 500px) {
     display: block;
-    height: 85px;
+    height: 95px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -11,6 +11,9 @@ header {
     color: rgb(48, 14, 48);
     background: #c968ca;
     margin-bottom: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
     // padding: 20px 0 20px 0;
   }
 
